@@ -33,7 +33,6 @@ const client = new Client({
 client.commands = new Collection();
 client.events = new Collection();
 client.cooldowns = new Collection();
-// Compartilha o sistema de logs com o client
 client.logs = logs;
 
 // Recursive function to load commands
