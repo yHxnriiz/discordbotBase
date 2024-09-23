@@ -1,0 +1,70 @@
+# Node.js related
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# Environment variables
+.env
+.env.test
+.env.local
+.env.*.local
+
+# Logs
+logs/
+*.log
+logs/*.log
+pids/
+*.pid
+*.seed
+*.pid.lock
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Coverage directories
+coverage/
+.nyc_output/
+
+# Build output
+dist/
+build/
+
+# Temporary files
+*.tmp
+*.temp
+*.swp
+*.bak
+*.old
+
+# Dependency directories
+jspm_packages/
+bower_components/
+
+# Compiled JavaScript files
+*.tsbuildinfo
+*.d.ts
+*.js.map
+*.css.map
+
+# MacOS
+.AppleDouble
+.LSOverride
+
+# Windows
+ehthumbs.db
+Desktop.ini
+
+# Python virtual environments (in case you use any Python scripts)
+venv/
+__pycache__/
+*.pyc

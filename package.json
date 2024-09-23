@@ -1,0 +1,25 @@
+{
+  "name": "discordbot-base",
+  "version": "1.0.0",
+  "description": "That's a base to make your own Discord bot",
+  "main": "index.js",
+  "dependencies": {
+    "discord.js": "^14.16.2",
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [
+    "discord",
+    "bot",
+    "discordbot"
+  ],
+  "github": "https://github.com/yHxnriiz/discordbotBase",
+  "author": "Henrii",
+  "license": "MIT"
+}
